@@ -36,11 +36,13 @@
 
     // obtiene libros desde un URL
     function BooksUrl( u: string) {
+        console.log("Used url: " + u)
         throw new Error('Function not implemented.');
     }
     
     // obtiene el área de un cuadrado basado en sus lados
     function areaCuadrado( s: number ) {
+        console.log("Squeare side: " + s)
         throw new Error('Function not implemented.');
     }
 
